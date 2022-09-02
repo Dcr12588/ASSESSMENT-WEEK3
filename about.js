@@ -1,24 +1,20 @@
 console.log("hello world");
 
-
+let image = document.querySelector("#myImage");
+let form = document.querySelector('#contact');
 
 function handleSubmit(evt) {
 	evt.preventDefault();
 		alert("Submitted Successfully")
 }
-let form = document.querySelector('#contact');
+
+const niceMessage = () => {
+	alert(`DUCKTOR SEES YOU`)
+}
 
 form.addEventListener('submit', handleSubmit);
-
-
-function niceMessage(){
-console.log("DUCKTOR SEES YOU")
-
-let img = document.querySelector("myImage");
-
-img.addEventListener('mouseover', () => {
-   return  niceMessage
-})}
+image.addEventListener('mouseover', niceMessage)
+   
 
 
 
