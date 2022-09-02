@@ -36,3 +36,18 @@ input {
 img {
 	max-width: 300px;
 }
+
+#color{
+background-color: yellow;
+font-size: larger;
+}
+
+#place{
+background-color: yellow;
+font-size: larger;
+}
+
+#ritual{
+background-color: yellow;
+font-size: larger;
+}
