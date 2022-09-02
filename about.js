@@ -4,14 +4,12 @@ console.log("hello world");
 
 function handleSubmit(evt) {
 	evt.preventDefault();
-	
-		function showAlert(){
 		alert("Submitted Successfully")
-
+}
 let form = document.querySelector('#contact');
 
 form.addEventListener('submit', handleSubmit);
-}}
+
 
 function niceMessage(){
 console.log("DUCKTOR SEES YOU")

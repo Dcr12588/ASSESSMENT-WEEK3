@@ -51,3 +51,7 @@ font-size: larger;
 background-color: yellow;
 font-size: larger;
 }
+
+.inputs{
+	display: flex;
+}

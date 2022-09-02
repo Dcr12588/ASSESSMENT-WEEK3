@@ -13,3 +13,5 @@ placeBtn.addEventListener('click', () => {
 ritualBtn.addEventListener('click', () => {
   console.log("Video games after class")
 })
+
+
